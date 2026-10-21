@@ -4,7 +4,7 @@ A modular, stateful, containerized, and publicly deployed Agentic AI customer su
 
 The application demonstrates hybrid intent routing, specialized LangGraph subgraphs, persistent conversation state, context-aware LLM fallback routing, conditional workflows, error handling, human escalation, real human-in-the-loop execution, REST API integration, an interactive Streamlit interface, automated testing, configurable checkpoint backends, production PostgreSQL persistence, multi-platform Docker deployment, and public cloud deployment.
 
-## Live Deployment.....
+## Live Deployment...
 
 ### Streamlit Application
 
