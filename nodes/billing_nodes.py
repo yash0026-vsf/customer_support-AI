@@ -4,6 +4,7 @@ from config.tools import refund_order, cancel_subscription
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 
+
 class BillingResponse(BaseModel):
     response: str = Field(description="The response to the customer. Inform them if you used a tool.")
 
