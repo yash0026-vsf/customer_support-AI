@@ -3,6 +3,7 @@ import re
 with open('frontend/index.html', 'r', encoding='utf-8') as f:
     html = f.read()
 
+
 # Add tailwind config
 html = html.replace('<script src="https://cdn.tailwindcss.com"></script>', 
                     '<script src="https://cdn.tailwindcss.com"></script>\n    <script>tailwind.config = { darkMode: "class" }</script>')
