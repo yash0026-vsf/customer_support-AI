@@ -10,7 +10,7 @@ html = html.replace('<script src="https://cdn.tailwindcss.com"></script>',
 
 # Map light classes to include dark classes
 replacements = {
-    'bg-gray-50 ': 'bg-gray-50 dark:bg-gray-900 ',
+     'bg-gray-50 ': 'bg-gray-50 dark:bg-gray-900 ',
     'bg-gray-50"': 'bg-gray-50 dark:bg-gray-900"',
     'bg-white ': 'bg-white dark:bg-gray-800 ',
     'bg-white"': 'bg-white dark:bg-gray-800"',
