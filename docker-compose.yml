@@ -34,7 +34,7 @@ services:
 
     depends_on:
       - api
-
+ 
 
 volumes:
   support_data:
